@@ -1,0 +1,65 @@
+body, #menu, #centre
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h2, h3, h4, h5, h6
+{
+
+	margin-bottom: 0.5em;
+}
+#menu
+{
+	float: left;
+	width: 18%;
+	margin: 0em 1em 1em;
+	padding: 1em;
+	background-color: #22ff37;
+}
+#centre
+{
+	margin: 1em 1em 1em 23%;
+	padding: 1em;
+	background-color: #eeeeee;
+	width : 52%;
+}
+#bas
+{
+	clear: both;
+	padding: 1em;
+	background-color: #3366ff;
+}
+label
+{
+	width: 250px;
+	text-align: left;
+}
+input
+{
+	margin-bottom: 2px;
+}
+.miniature_pdf {
+	text-align: center;
+	width: 200px;
+	float: right;
+}
+.mediavideo {
+	width: 640px;
+	margin : auto;
+	margin-bottom: 20px;
+}
+.panel td{
+	border : none;
+	text-align: center;
+}
+
+.panel tr:nth-child(even){
+	background: transparent;
+}
+
+tr.label{
+	border-collapse: separate;
+	padding-bottom: 30px;
+}

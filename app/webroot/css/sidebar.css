@@ -1,0 +1,60 @@
+#sidebar{
+	width: 247px;
+	float: right;
+	
+	margin-left: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	background-color: #FFC600;
+	padding: 13px;
+	
+}
+
+#sidebar form{
+	margin: 0px;
+	overflow : hidden;
+	padding: 0px;
+}
+
+
+#sidebar label{
+	font-size: small;
+}
+
+
+#sidebar input{
+	clear: none;
+	font-size: small;
+	width: 60%;
+}
+
+#sidebar form div{
+	padding: 0px;
+	margin: 5px;
+}
+
+#sidebar .submit input{
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+#sidebar .submit{
+	text-align: center;
+}
+
+#sidebar fieldset{
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+}
+
+#inscription{
+	font-size: small;
+	color: black;
+	font-style: italic;
+	text-align: right;
+}
+

@@ -1,0 +1,114 @@
+html{
+	background: url("../img/fond-html.png") no-repeat;
+	background-attachment: fixed;
+	
+}
+
+body {
+	width : 1010px;
+	margin : auto;
+	
+	text-align: justify;
+}
+
+#header{
+	height : 191px;
+	width : 100%;
+	margin-top : 11px;
+}
+
+#banner{
+	height : 142px;
+	width : 972px; 
+	
+	margin : auto; 
+	background-color: #FFC600;
+	background-image: url("../img/logo-banner.png");
+	background-repeat: no-repeat;
+	
+	position: relative;
+	z-index: 10;
+}
+
+#rebours{
+	float: right;
+	margin-top : 40px;
+	margin-right : 40px;
+	color : black;
+	font-size : 60px;
+	font-family: Helvetica;
+}
+
+#rebours img{
+	vertical-align: middle;
+	position : relative;
+	top: -7px;
+}
+
+#fond{
+	height : 113px;
+	background-image: url("../img/noir72.png");
+	
+	position : relative;
+	top: -64px;
+	z-index : -10;
+}
+#footer{
+	font-style: italic;
+	padding: 10px;
+	color: white;
+	clear: both;
+	background-image: url("../img/noir72.png");
+	margin: 20px 0px;
+	text-align: center;
+	font-size: xx-small;
+}
+
+#onglets{
+	height : 56px;
+	width : 972px;
+	margin: auto;
+	
+	position: relative;
+	top:-136px;
+	z-index: 20;
+}
+
+#onglets li{
+	display: inline;
+	margin:0;
+	padding:0;
+}
+
+#onglets ul{
+	width: 500px;
+	margin: auto;
+	padding:0;
+}
+
+#onglets li a img{
+	border:none;
+}
+
+#content{
+	width: 677px;
+	padding: 20px;
+	overflow: auto;
+	
+	margin-top: 16px;
+	background-color: #FFC600;
+}
+
+#barre_droite{
+	max-width: 310px;
+	float: right;
+}
+
+#alaune{
+	padding: 5px !important;
+}
+
+.whitebox, #numero img, .ombre{
+	-webkit-box-shadow: 1px 1px 15px #555; 
+	-moz-box-shadow: 1px 1px 15px #555; 
+}
